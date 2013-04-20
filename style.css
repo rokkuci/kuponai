@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+}
+#bg {
+    background: url("images/bg.jpg") repeat-x;
+    height: 858px;
+    width: 1124px;
+    position: fixed;
+}
+
+#content_wrapper {
+    position: absolute;
+    width: 974px;
+    height: 708px;
+    margin: 75px 0 0 75px;
+    background-color: white;
+    border: 1px solid #ebe2d9;
+    box-shadow: 0.5px 0.5px 15px 0.8px #dfd8cc;
+
+
+}
+
+#content {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+li {
+    list-style-image: url('images/bullet_03.jpg');
+    line-height: 1.5em;
+
+}
+
+#pirkimas {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+img {
+   display:inline;
+    padding: 20px;
+}
+
+h5 {
+    margin-bottom: -25px;
+}
+.tabs li {
+    display: inline;
+
+}
