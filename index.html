@@ -63,11 +63,21 @@
                         </div>
                     </div>
                     <div id="panel">
-                        <h4>Pasirinkite juridinį statusą</h4>
-                        <input type="radio">Fizinis asmuo</input>
-                        <input type="radio">Juridinis asmuo</input>
-                        <h4>Įveskite pageidaujamą sumą</h4>
-                        <input type="text"/><span>* Lt</span>
+                        <form>
+                            <h4>Pasirinkite juridinį statusą</h4>
+                            Fizinis asmuo<input type="radio">
+                            Juridinis asmuo<input type="radio">
+                            <h4>Įveskite pageidaujamą sumą</h4>
+                            <input type="text"/><span>* Lt</span>
+                            <p><b>Įveskite kontaktinius duomenis</b></p>
+                            Vardas: <input type="text" id="vardas"/> *
+                            Pavardė: <input type="text" id="pavarde"/> *
+                            Telefonas: <input type="text" id="telefonas"/> *
+                            El.paštas: <input type="email" id="email"/> *
+                            Komentaras: <input type="textarea" id="komentaras"/> *
+                        </form>
+                        <p>* pažymėtus laukus užpildyti privaloma</p>
+                        <input type="submit" value="Submit"/>
                     </div>
                 </div>
             </div>
