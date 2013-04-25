@@ -46,8 +46,11 @@ body {
 #action_area {
     border: 1px solid darkblue;
     float: left;
+    z-index: -2;
 }
-
+.tabs {
+    position: relative;
+}
 .tabs ul {
     border: 1px solid darkmagenta;
     float: left;
@@ -55,16 +58,27 @@ body {
     position: relative;
     display: inline;
 }
-ul li {
+.tabs li {
     width: 30%;
     float:left;
+    padding-left: 10px;
+    list-style-type: none;
+    z-index: 5;
+    position: relative;
+
 }
 #active {
-    border: 1px dotted chartreuse;
+    border: 1px solid brown;
     width: 30%;
+    bottom: 1px;
+    margin-bottom: -2px;
+    border-bottom: none;
+    background-color: white;
+
 }
 
 #panel {
     border: 1px solid brown;
     float: left;
+    z-index: -1;
 }
