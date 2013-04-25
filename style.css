@@ -45,16 +45,26 @@ body {
 
 #action_area {
     border: 1px solid darkblue;
+    float: left;
 }
 
-.tabs {
+.tabs ul {
     border: 1px solid darkmagenta;
+    float: left;
+    width: 60%;
+    position: relative;
+    display: inline;
 }
-
+ul li {
+    width: 30%;
+    float:left;
+}
 #active {
     border: 1px dotted chartreuse;
+    width: 30%;
 }
 
 #panel {
     border: 1px solid brown;
+    float: left;
 }
